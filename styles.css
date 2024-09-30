@@ -1,0 +1,34 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7dea6; /* Background color for the semi-transparent SVG */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Landing Page Styles */
+.landing-page {
+    position: relative;
+    width: 405.1px;
+    height: 720.1px;
+}
+
+/* SVG Image Styling */
+.svg-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* Clickable Area */
+.clickable-area {
+    position: absolute;
+    top: 657px;
+    left: 42px;
+    width: 75px; /* 117 - 42 */
+    height: 63px; /* 720.1 - 657 */
+    display: block;
+    cursor: pointer;
+}
